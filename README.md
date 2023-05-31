@@ -24,7 +24,7 @@ https://apigratis.com.br
 ```npm install apigratis```
 
 ## Mais informações
-https://packagist.org/packages/jhowbhz/apigratis-sdk-php
+https://www.npmjs.com/package/apigratis
 
 ## Serviços de API disponíveis
 
