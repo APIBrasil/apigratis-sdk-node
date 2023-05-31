@@ -5,13 +5,13 @@ Conjunto de API, para desenvolvedores.
 _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como  API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais. Comece agora._
 
 [![npm version](https://img.shields.io/npm/v/apigratis.svg?color=green)](https://www.npmjs.com/package/apigratis)
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/jhowbhz/package-apigratis-npm.svg)](https://isitmaintained.com/project/jhowbhz/apigratis 'Average time to resolve an issue')
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/jhowbhz/package-apigratis-npm.svg)](https://isitmaintained.com/project/jhowbhz/package-apigratis-npm  'Percentage of issues still open')
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/APIBrasil/apigratis-sdk-node.svg)](https://isitmaintained.com/project/jhowbhz/apigratis 'Average time to resolve an issue')
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/APIBrasil/apigratis-sdk-node.svg)](https://isitmaintained.com/project/APIBrasil/apigratis-sdk-node  'Percentage of issues still open')
 [![release-it](https://img.shields.io/badge/%F0%9F%93%A6%F0%9F%9A%80-release--it-e10079.svg)](https://github.com/release-it/release-it)
-<a href="https://github.com/APIBrasil/apigratis-sdk-node/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/jhowbhz/package-apigratis-npm"></a>
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/jhowbhz/package-apigratis-npm/total">
-<a href="https://github.com/APIBrasil/apigratis-sdk-node/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/jhowbhz/package-apigratis-npm"></a>
-<a href="https://github.com/APIBrasil/apigratis-sdk-node/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/jhowbhz/package-apigratis-npm"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-node/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/APIBrasil/apigratis-sdk-node"></a>
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/APIBrasil/apigratis-sdk-node/total">
+<a href="https://github.com/APIBrasil/apigratis-sdk-node/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/APIBrasil/apigratis-sdk-node"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-node/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/APIBrasil/apigratis-sdk-node"></a>
 
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
