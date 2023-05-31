@@ -8,10 +8,10 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/APIBrasil/apigratis-sdk-nodejs.svg)](https://isitmaintained.com/project/jhowbhz/apigratis-sdk-nodejs 'Average time to resolve an issue')
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/APIBrasil/apigratis-sdk-nodejs.svg)](https://isitmaintained.com/project/APIBrasil/apigratis-sdk-nodejs  'Percentage of issues still open')
 [![release-it](https://img.shields.io/badge/%F0%9F%93%A6%F0%9F%9A%80-release--it-e10079.svg)](https://github.com/release-it/release-it)
-<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/APIBrasil/apigratis-sdk-nodejs"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/APIBrasil/apigratis-sdk-node"></a>
 <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/APIBrasil/apigratis-sdk-nodejs/total">
-<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/APIBrasil/apigratis-sdk-nodejs"></a>
-<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/APIBrasil/apigratis-sdk-nodejs"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/APIBrasil/apigratis-sdk-node"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/APIBrasil/apigratis-sdk-node"></a>
 
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
