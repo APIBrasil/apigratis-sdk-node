@@ -4,14 +4,14 @@ Conjunto de API, para desenvolvedores.
 
 _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos como  API do WhatsApp, geolocalização, rastreamento de encomendas, verificação de CPF/CNPJ e mais, você pode criar soluções eficientes e funcionais. Comece agora._
 
-[![npm version](https://img.shields.io/npm/v/apigratis-sdk-node.svg?color=green)](https://www.npmjs.com/package/apigratis-sdk-node)
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/APIBrasil/apigratis-sdk-node.svg)](https://isitmaintained.com/project/jhowbhz/apigratis-sdk-node 'Average time to resolve an issue')
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/APIBrasil/apigratis-sdk-node.svg)](https://isitmaintained.com/project/APIBrasil/apigratis-sdk-node  'Percentage of issues still open')
+[![npm version](https://img.shields.io/npm/v/apigratis-sdk-nodejs.svg?color=green)](https://www.npmjs.com/package/apigratis-sdk-nodejs)
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/APIBrasil/apigratis-sdk-nodejs.svg)](https://isitmaintained.com/project/jhowbhz/apigratis-sdk-nodejs 'Average time to resolve an issue')
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/APIBrasil/apigratis-sdk-nodejs.svg)](https://isitmaintained.com/project/APIBrasil/apigratis-sdk-nodejs  'Percentage of issues still open')
 [![release-it](https://img.shields.io/badge/%F0%9F%93%A6%F0%9F%9A%80-release--it-e10079.svg)](https://github.com/release-it/release-it)
-<a href="https://github.com/APIBrasil/apigratis-sdk-node/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/APIBrasil/apigratis-sdk-node"></a>
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/APIBrasil/apigratis-sdk-node/total">
-<a href="https://github.com/APIBrasil/apigratis-sdk-node/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/APIBrasil/apigratis-sdk-node"></a>
-<a href="https://github.com/APIBrasil/apigratis-sdk-node/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/APIBrasil/apigratis-sdk-node"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/APIBrasil/apigratis-sdk-nodejs"></a>
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/APIBrasil/apigratis-sdk-nodejs/total">
+<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/APIBrasil/apigratis-sdk-nodejs"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/APIBrasil/apigratis-sdk-nodejs"></a>
 
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
@@ -46,7 +46,7 @@ Você pode encontrar todos os endpoints e bodys a serem utilizados na documenta�
 https://apibrasil.com.br/documentacoes
 
 ```javascript
-import { WhatsApp } from 'apigratis-sdk-nodejs';
+import { WhatsApp } from 'apigratis-sdk-nodejsjs';
 
 async function sendText() {
 
@@ -84,7 +84,7 @@ Você pode encontrar todos os endpoints e bodys a serem utilizados na documenta�
 https://apibrasil.com.br/documentacoes
 
 ```javascript
-import { Vehicles } from 'apigratis-sdk-nodejs';
+import { Vehicles } from 'apigratis-sdk-nodejsjs';
 
 //Obtenha dados de um veículo pela placa 
 
@@ -115,7 +115,7 @@ dadosPorPlaca();
 ```
 
 ```javascript
-import { Vehicles } from 'apigratis-sdk-nodejs';
+import { Vehicles } from 'apigratis-sdk-nodejsjs';
 
 //Obtenha a TABELA FIPE de um veículo pela placa 
 
