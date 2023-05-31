@@ -7,10 +7,10 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 [![npm version](https://img.shields.io/npm/v/apigratis-sdk-nodejs.svg?color=green)](https://www.npmjs.com/package/apigratis-sdk-nodejs)
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/APIBrasil/apigratis-sdk-nodejs.svg)](https://isitmaintained.com/project/APIBrasil/apigratis-sdk-node 'Average time to resolve an issue')
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/APIBrasil/apigratis-sdk-nodejs.svg)](https://isitmaintained.com/project/APIBrasil/apigratis-sdk-node  'Percentage of issues still open')
-<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/APIBrasil/apigratis-sdk-node"></a>
-<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/APIBrasil/apigratis-sdk-nodejs/total">
-<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/APIBrasil/apigratis-sdk-node"></a>
-<a href="https://github.com/APIBrasil/apigratis-sdk-nodejs/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/APIBrasil/apigratis-sdk-node"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-node/issues" target="_blank"><img alt="GitHub issues" src="https://img.shields.io/github/issues/APIBrasil/apigratis-sdk-node"></a>
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/APIBrasil/apigratis-sdk-node/total">
+<a href="https://github.com/APIBrasil/apigratis-sdk-node/network" target="_blank"><img alt="GitHub forks" src="https://img.shields.io/github/forks/APIBrasil/apigratis-sdk-node"></a>
+<a href="https://github.com/APIBrasil/apigratis-sdk-node/stargazers" target="_blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/APIBrasil/apigratis-sdk-node"></a>
 
 ## Canais de suporte (Comunidade)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://chat.whatsapp.com/KsxrUGIPWvUBYAjI1ogaGs)
