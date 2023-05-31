@@ -1,7 +1,7 @@
 {
-  "name": "apigratis",
+  "name": "apigratis-sdk-js",
   "version": "0.0.1",
-  "description": "A simple way to consume free services offered by the APIGratis website",
+  "description": "A ideia desse SDK é otimizar o tempo de código dos usuários auxiliando na integração com a plataforma",
   "homepage": "https://apigratis.com.br",
   "author": {
     "name": "APIGratis",
