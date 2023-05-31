@@ -1,6 +1,6 @@
 {
   "name": "apigratis-sdk-alpha",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A ideia desse SDK é otimizar o tempo de código dos usuários auxiliando na integração com a plataforma",
   "homepage": "https://apigratis.com.br",
   "author": {
@@ -8,7 +8,7 @@
     "email": "contato@apigratis.com.br",
     "url": "https://apigratis.com.br"
   },
-  "main": "src/App.js",
+  "main": "src/APIGratis.js",
   "strict": true,
   "keywords": [
     "node",
@@ -25,8 +25,8 @@
   ],
   "scripts": {
     "build": "tsc -p .",
-    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/App.js",
-    "start": "node src/App.js",
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/APIGratis.js",
+    "start": "node src/APIGratis.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "funding": {

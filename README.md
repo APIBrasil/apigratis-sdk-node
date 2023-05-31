@@ -44,25 +44,34 @@ in developing
 
 ```javascript
 // isso é apenas um rascunho, ainda nao está funcional
+const WhatsApp = require('apigratis');
 
-const APIGratis = require('apigratis');
+async function teste() {
 
-function teste() {
-    return APIGratis.WhatsApp({
-        "action": "sendText",
-        "credentials": {
-            "SecretKey": "SEU_SECRET_KEY",
-            "PublicToken": "SEU_PUBLIC_TOKEN",
-            "DeviceToken": "SEU_DEVICE_TOKEN",
-            "BearerToken": "SEU_BEARER_TOKEN",
-        },
-        "body": {
-            "message": "Hello World por Python",
-            "phone": "5531994359434",
-            "time_typing": 1
-        }
-    });
+    try {
+    
+        const response = await WhatsApp.request({
+            action: "sendText",
+            credentials: {
+                SecretKey: "SEU_SECRET_KEY",
+                PublicToken: "SEU_PUBLIC_TOKEN",
+                DeviceToken: "SEU_DEVICE_TOKEN",
+                BearerToken: "SEU_BEARER_TOKEN",
+            },
+            body: {
+                message: "Hello World por JavaScript",
+                phone: "5531994359434",
+                time_typing: 1
+            }
+        });
+    
+        console.log(response)
+    
+    } catch (error) {
+        
+        console.log(error)
+
+    }
 }
 
-console.log(teste);
 ```
