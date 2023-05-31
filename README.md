@@ -1,4 +1,4 @@
-# SDK JavaScript - APIGratis by API BRASIL 🚀
+# SDK NODEJS - APIGratis by API BRASIL 🚀
 
 Conjunto de API, para desenvolvedores.
 
