@@ -1,5 +1,4 @@
-# Package APIGratis 🚀
-![APIGratis Banner](https://i.imgur.com/AK7iWyF.png)
+# SDK JavaScript - APIGratis by API BRASIL 🚀
 
 Conjunto de API, para desenvolvedores.
 
