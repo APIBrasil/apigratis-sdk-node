@@ -1,0 +1,54 @@
+{
+  "name": "apigratis",
+  "version": "0.0.1",
+  "description": "A simple way to consume free services offered by the APIGratis website",
+  "homepage": "https://apigratis.com.br",
+  "author": {
+    "name": "APIGratis",
+    "email": "contato@apigratis.com.br",
+    "url": "https://apigratis.com.br"
+  },
+  "main": "src/App.js",
+  "strict": true,
+  "keywords": [
+    "node",
+    "npm",
+    "whatsapp",
+    "api-rest",
+    "apigratis",
+    "apibrasil",
+    "geolocation",
+    "cep",
+    "cpf",
+    "cnpj",
+    "correios"  
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/App.js",
+    "start": "node src/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "funding": {
+    "type": " Buy me a coffee",
+    "url": "https://issuehunt.io/r/jhowbhz"
+  },
+  "bugs": {
+    "url": "https://github.com/APIBrasil/apigratis-sdk-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/APIBrasil/apigratis-sdk-node.git"
+  },
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "publishConfig": {
+    "@jhowbhz:registry": "https://npm.pkg.github.com"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {}
+}
