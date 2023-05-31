@@ -30,12 +30,12 @@ https://www.npmjs.com/package/apigratis
 
 | Up  | Services available            | Description       | Free    | Beta        | Stable   |
 ------|-------------------------------|-------------------|---------| ------------------------- | ------------------------- |
-| ✅ | WhatsAppService                | API do WhatsApp Gratuita.               |   ⌛   | ⌛                   | ⌛                   |
+| ✅ | WhatsAppService                | API do WhatsApp Gratuita.               |   ✅   | ✅                   | ⌛                   |
 | ⌛ | Receita Data CNPJ              | API Dados CNPJ Receita.                 |   ⌛   | ⌛                   | ⌛                   |
 | ⌛ | Receita Data CPF               | API Dados de CPF Serasa.                |   ⌛   | ⌛                   | ⌛                   |
 | ⌛ | CorreiosService                | API Busca encomendas Correios Brazil.   |   ⌛   | ⌛                   | ⌛                   |
 | ⌛ | CEPLocation                    | API CEP Geolocation + IBGE Brazil.      |   ⌛   | ⌛                   | ⌛                   |
-| ⌛ | VehiclesService                | API Placa Dados.                        |   ⌛   | ⌛                   | ⌛                   |
+| ✅ | VehiclesService                | API Placa Dados.                        |   ✅   | ✅                   | ⌛                   |
 | ⌛ | FipeService                    | API Placa FIPE.                         |   ⌛   | ⌛                   | ⌛                   |
 
 
