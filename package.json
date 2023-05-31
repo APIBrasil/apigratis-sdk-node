@@ -1,13 +1,9 @@
 {
-  "name": "apigratis-sdk-alpha",
-  "version": "0.0.2",
+  "name": "apigratis-sdk-nodejs",
+  "version": "0.0.9",
   "description": "A ideia desse SDK é otimizar o tempo de código dos usuários auxiliando na integração com a plataforma",
   "homepage": "https://apigratis.com.br",
-  "author": {
-    "name": "APIGratis",
-    "email": "contato@apigratis.com.br",
-    "url": "https://apigratis.com.br"
-  },
+  "author": "APIGratis <contato@apigratis.com.br> (https://apigratis.com.br)",
   "main": "src/APIGratis.js",
   "strict": true,
   "keywords": [
@@ -21,7 +17,7 @@
     "cep",
     "cpf",
     "cnpj",
-    "correios"  
+    "correios"
   ],
   "scripts": {
     "build": "tsc -p .",
@@ -38,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/APIBrasil/apigratis-sdk-node.git"
+    "url": "git+https://github.com/APIBrasil/apigratis-sdk-node.git"
   },
   "dependencies": {
     "axios": "^0.25.0"

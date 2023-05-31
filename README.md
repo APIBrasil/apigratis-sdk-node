@@ -21,7 +21,7 @@ _Transforme seus projetos em soluções inteligentes com nossa API. Com recursos
 https://apigratis.com.br
 
 ## Instalando pacote com o composer
-```npm install apigratis```
+```npm i apigratis-sdk-nodejs --save```
 
 ## Mais informações
 https://www.npmjs.com/package/apigratis
@@ -39,39 +39,109 @@ https://www.npmjs.com/package/apigratis
 | ⌛ | FipeService                    | API Placa FIPE.                         |   ⌛   | ⌛                   | ⌛                   |
 
 
-## WhatsAppService - Examples usage
-in developing
+## WhatsApp Service
+
+Você pode encontrar todos os endpoints e bodys a serem utilizados na documentação disponível no nosso site
+
+https://apibrasil.com.br/documentacoes
 
 ```javascript
-// isso é apenas um rascunho, ainda nao está funcional
-const WhatsApp = require('apigratis');
+import { WhatsApp } from 'apigratis-sdk-nodejs';
 
-async function teste() {
+async function sendText() {
 
-    try {
+  try {
     
-        const response = await WhatsApp.request({
-            action: "sendText",
-            credentials: {
-                SecretKey: "SEU_SECRET_KEY",
-                PublicToken: "SEU_PUBLIC_TOKEN",
-                DeviceToken: "SEU_DEVICE_TOKEN",
-                BearerToken: "SEU_BEARER_TOKEN",
-            },
-            body: {
-                message: "Hello World por JavaScript",
-                phone: "5531994359434",
-                time_typing: 1
-            }
-        });
-    
-        console.log(response)
-    
-    } catch (error) {
-        
-        console.log(error)
+    const response = await WhatsApp({
+      action: "sendText",
+      credentials: {
+        SecretKey: "SUA_CREDENCIAL",
+        PublicToken: "SUA_CREDENCIAL",
+        DeviceToken: "SUA_CREDENCIAL",
+        BearerToken: "SUA_CREDENCIAL",
+      },
+      body: {
+        text: "Hello World por JavaScript",
+        number: "5531994359434",
+        time_typing: 1
+      }
+    });
 
-    }
+    console.log(response);
+  } catch (error) {
+    console.log(response);
+  }
+
 }
 
+sendText();
+
+```
+## Vehicles Service
+
+Você pode encontrar todos os endpoints e bodys a serem utilizados na documentação disponível no nosso site
+
+https://apibrasil.com.br/documentacoes
+
+```javascript
+import { Vehicles } from 'apigratis-sdk-nodejs';
+
+//Obtenha dados de um veículo pela placa 
+
+async function dadosPorPlaca {
+  try {
+    
+    const response = await Vehicles({
+      action: "dados",
+      credentials: {
+        SecretKey: "SUA_CREDENCIAL",
+        PublicToken: "SUA_CREDENCIAL",
+        DeviceToken: "SUA_CREDENCIAL",
+        BearerToken: "SUA_CREDENCIAL",
+      },
+      body: {
+        placa: "OQH3065"
+      }
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.log(response);
+  }
+
+}
+
+dadosPorPlaca();
+```
+
+```javascript
+import { Vehicles } from 'apigratis-sdk-nodejs';
+
+//Obtenha a TABELA FIPE de um veículo pela placa 
+
+async function fipePorPlaca {
+
+  try {
+    
+    const response = await Vehicles({
+      action: "fipe",
+      credentials: {
+        SecretKey: "SUA_CREDENCIAL",
+        PublicToken: "SUA_CREDENCIAL",
+        DeviceToken: "SUA_CREDENCIAL",
+        BearerToken: "SUA_CREDENCIAL",
+      },
+      body: {
+        placa: "OQH3065"
+      }
+    });
+
+    console.log(response);
+  } catch (error) {
+    console.log(response);
+  }
+
+}
+
+fipePorPlaca();
 ```

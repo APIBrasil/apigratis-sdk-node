@@ -1,34 +1,13 @@
 const axios = require("axios");
 
-class WhatsApp {
+class Payload {
 
-    static validateCredentials(credentials) {
-        if (
-            !credentials?.SecretKey ||
-            !credentials?.PublicToken ||
-            !credentials?.DeviceToken ||
-            !credentials?.BearerToken
-        ) {
-            throw new Error("Invalid credentials");
-        }
-    }
-
-    static validateWBody(body) {
-        if (!body) {
-            throw new Error("Invalid body");
-        }
-    }
-
-    static async request(data) {
+    static async request(service, data) {
 
         const { credentials, body, action } = data;
+        const SERVER = `https://cluster-01.apigratis.com/api/v1/${service}`;
 
         try {
-            
-            this.validateCredentials(credentials);
-            this.validateBody(body);
-
-            const SERVER = "https://cluster-01.apigratis.com/api/v1/whatsapp/";
 
             const config = {
                 method: "POST",
@@ -50,10 +29,10 @@ class WhatsApp {
         } catch (error) {
             return {
                 status: "error",
-                message: error.message,
+                error: error?.response?.data?.error || error.message,
             };
         }
     }
 }
 
-module.exports = WhatsApp;
+module.exports = Payload;
