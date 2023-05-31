@@ -23,7 +23,7 @@ https://apigratis.com.br
 ```npm i apigratis-sdk-nodejs --save```
 
 ## Mais informações
-https://www.npmjs.com/package/apigratis
+https://www.npmjs.com/package/apigratis-sdk-nodejs
 
 ## Serviços de API disponíveis
 
