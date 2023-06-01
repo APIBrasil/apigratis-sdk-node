@@ -34,12 +34,12 @@ https://www.npmjs.com/package/apigratis-sdk-nodejs
 | Up  | Services available | Description                           | Free | Beta | Stable |
 | --- | ------------------ | ------------------------------------- | ---- | ---- | ------ |
 | ✅  | WhatsAppService    | API do WhatsApp Gratuita.             | ✅   | ✅   | ⌛     |
-| ⌛  | Receita Data CNPJ  | API Dados CNPJ Receita.               | ⌛   | ⌛   | ⌛     |
-| ⌛  | Receita Data CPF   | API Dados de CPF Serasa.              | ⌛   | ⌛   | ⌛     |
-| ⌛  | CorreiosService    | API Busca encomendas Correios Brazil. | ⌛   | ⌛   | ⌛     |
-| ⌛  | CEPLocation        | API CEP Geolocation + IBGE Brazil.    | ⌛   | ⌛   | ⌛     |
+| ✅  | Receita Data CNPJ  | API Dados CNPJ Receita.               | ✅   | ✅   | ⌛     |
+| ✅  | Receita Data CPF   | API Dados de CPF Serasa.              | ✅   | ✅   | ⌛     |
+| ✅  | CorreiosService    | API Busca encomendas Correios Brazil. | ✅   | ✅   | ⌛     |
+| ✅  | CEPLocation        | API CEP Geolocation + IBGE Brazil.    | ✅   | ✅   | ⌛     |
 | ✅  | VehiclesService    | API Placa Dados.                      | ✅   | ✅   | ⌛     |
-| ⌛  | FipeService        | API Placa FIPE.                       | ⌛   | ⌛   | ⌛     |
+| ✅  | FipeService        | API Placa FIPE.                       | ✅   | ✅   | ⌛     |
 
 ## WhatsApp Service
 
@@ -107,3 +107,5 @@ vehiclesApi
 	})
 	.then(resp => console.log(JSON.stringify(resp, undefined, '  ')));
 ```
+
+...Em breve mais exemplos

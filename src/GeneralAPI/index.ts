@@ -12,7 +12,8 @@ export type Action =
 	| 'vehicles'
 	| 'correios'
 	| 'dados/cpf'
-	| 'dados/cnpj';
+	| 'dados/cnpj'
+	| 'cep';
 
 export const createApiInstance = (action: Action, credentials: Credentials) => {
 	const axiosInstance = axios.create({

@@ -1,6 +1,6 @@
 {
 	"name": "apigratis-sdk-nodejs",
-	"version": "0.1.1",
+	"version": "0.1.4",
 	"description": "A ideia desse SDK é otimizar o tempo de código dos usuários auxiliando na integração com a plataforma",
 	"homepage": "https://apigratis.com.br",
 	"author": "APIGratis <contato@apigratis.com.br> (https://apigratis.com.br)",
@@ -20,7 +20,7 @@
 		"correios"
 	],
 	"scripts": {
-		"build": "tsc -p .",
+		"build": "yarn tsc",
 		"start": "tsc && link-module-alias && node dist/index.js",
 		"dev": "tsc && link-module-alias && concurrently \"tsc --watch\" \"nodemon dist/index.js\"",
 		"test": "jest",
