@@ -17,7 +17,7 @@ export type Action =
 
 export const createApiInstance = (action: Action, credentials: Credentials) => {
 	const axiosInstance = axios.create({
-		baseURL: `https://cluster-01.apigratis.com/api/v1/${action}`,
+		baseURL: `https://cluster.apigratis.com/api/v2/${action}`,
 		headers: {
 			...credentials,
 			Authorization: `Bearer ${credentials.BearerToken}`,

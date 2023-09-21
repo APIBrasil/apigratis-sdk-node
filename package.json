@@ -1,9 +1,9 @@
 {
 	"name": "apigratis-sdk-nodejs",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"description": "A ideia desse SDK é otimizar o tempo de código dos usuários auxiliando na integração com a plataforma",
-	"homepage": "https://apigratis.com.br",
-	"author": "APIGratis <contato@apigratis.com.br> (https://apigratis.com.br)",
+	"homepage": "https://apibrasil.com.br",
+	"author": "APIGratis <contato@apibrasil.com.br> (https://apibrasil.com.br)",
 	"main": "./dist",
 	"strict": true,
 	"keywords": [

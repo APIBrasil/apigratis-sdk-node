@@ -33,13 +33,13 @@ https://www.npmjs.com/package/apigratis-sdk-nodejs
 
 | Up  | Services available | Description                           | Free | Beta | Stable |
 | --- | ------------------ | ------------------------------------- | ---- | ---- | ------ |
-| ✅  | WhatsAppService    | API do WhatsApp Gratuita.             | ✅   | ✅   | ⌛     |
-| ✅  | Receita Data CNPJ  | API Dados CNPJ Receita.               | ✅   | ✅   | ⌛     |
-| ✅  | Receita Data CPF   | API Dados de CPF Serasa.              | ✅   | ✅   | ⌛     |
-| ✅  | CorreiosService    | API Busca encomendas Correios Brazil. | ✅   | ✅   | ⌛     |
-| ✅  | CEPLocation        | API CEP Geolocation + IBGE Brazil.    | ✅   | ✅   | ⌛     |
-| ✅  | VehiclesService    | API Placa Dados.                      | ✅   | ✅   | ⌛     |
-| ✅  | FipeService        | API Placa FIPE.                       | ✅   | ✅   | ⌛     |
+| ✅  | WhatsAppService    | API do WhatsApp Gratuita.             | ✅   | ✅   | ✅     |
+| ✅  | Receita Data CNPJ  | API Dados CNPJ Receita.               | ✅   | ✅   | ✅     |
+| ✅  | Receita Data CPF   | API Dados de CPF Serasa.              | ✅   | ✅   | ✅     |
+| ✅  | CorreiosService    | API Busca encomendas Correios Brazil. | ✅   | ✅   | ✅     |
+| ✅  | CEPLocation        | API CEP Geolocation + IBGE Brazil.    | ✅   | ✅   | ✅     |
+| ✅  | VehiclesService    | API Placa Dados.                      | ✅   | ✅   | ✅     |
+| ✅  | FipeService        | API Placa FIPE.                       | ✅   | ✅   | ✅     |
 
 ## WhatsApp Service
 
@@ -53,8 +53,6 @@ import { createCpfApi } from 'apigratis-sdk-nodejs';
 const cpfApi = createCpfApi({
 	BearerToken: 'bearer_token',
 	DeviceToken: 'device_token',
-	SecretKey: 'secret_key',
-	PublicToken: 'public_token',
 });
 
 cpfApi
@@ -78,8 +76,6 @@ import { createVehiclesApi } from 'apigratis-sdk-nodejs';
 const vehiclesApi = createVehiclesApi({
 	BearerToken: 'bearer_token',
 	DeviceToken: 'device_token',
-	SecretKey: 'secret_key',
-	PublicToken: 'public_token',
 });
 
 vehiclesApi
@@ -97,8 +93,6 @@ import { createVehiclesApi } from 'apigratis-sdk-nodejs';
 const vehiclesApi = createVehiclesApi({
 	BearerToken: 'bearer_token',
 	DeviceToken: 'device_token',
-	SecretKey: 'secret_key',
-	PublicToken: 'public_token',
 });
 
 vehiclesApi
