@@ -1,0 +1,8 @@
+{
+	"entryPoints": ["src/index.ts"],
+	"out": "docs",
+	"name": "APIBrasil SDK Node.js",
+	"excludePrivate": true,
+	"excludeInternal": true,
+	"includeVersion": true
+}

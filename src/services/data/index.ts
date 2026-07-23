@@ -1,0 +1,12 @@
+export { DadosService } from './dados';
+export { VehiclesService } from './vehicles';
+export { FipeService } from './fipe';
+export { CorreiosService } from './correios';
+export { CepService } from './cep';
+export { DatabaseIpService } from './databaseIp';
+export { ConsultaService } from './consulta';
+export { UraService } from './ura';
+export { ChipVirtualService } from './chipVirtual';
+export { BulkService } from './bulk';
+export { DeviceProxyService } from '../deviceProxy';
+export * from '../../generated/catalog';

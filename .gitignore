@@ -1,3 +1,6 @@
 node_modules
 dist
 coverage
+docs
+*.tsbuildinfo
+.DS_Store
