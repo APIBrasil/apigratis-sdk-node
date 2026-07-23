@@ -324,19 +324,3 @@ const cpfApi = createCpfApi({
 });
 cpfApi.request('/', { cpf: '__CPF__' }).then(resp => console.log(resp));
 ```
-
-## Desenvolvimento
-
-```bash
-npm install
-npm test              # testes unitários (jest + transporte fake)
-npm run test:contract # testes de contrato contra o gateway real (endpoints públicos)
-npm run lint          # eslint
-npm run format        # prettier
-npm run typecheck     # tsc --noEmit
-npm run build         # tsup → dist/ (ESM + CJS + d.ts)
-npm run codegen       # regenera src/generated/catalog.ts do catálogo da plataforma
-npm run docs          # typedoc → docs/
-```
-
-CI no GitHub Actions roda lint, formatação, typecheck, testes e build em Node 18/20/22. A publicação no npm acontece automaticamente ao criar uma release no GitHub (workflow `publish.yml`, requer o secret `NPM_TOKEN`).
