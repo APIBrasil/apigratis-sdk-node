@@ -24,6 +24,10 @@ Reescrita completa da SDK, agora cobrindo toda a plataforma APIBrasil.
 - Imports profundos de `dist/` (ex: `apigratis-sdk-nodejs/dist/Cpf`) deixam de funcionar — use os subpath exports.
 - Interface legada `createWhatsAppApi`/`createCpfApi`/etc. segue funcionando com o mesmo contrato (`{ status: 'error' }` em erros, base `cluster.apigratis.com`), agora implementada sobre o novo núcleo e marcada como deprecated.
 
-## 0.1.6
+## 0.1.7
 
 Última versão da interface antiga (wrappers `createXxxApi` sobre axios).
+
+## 0.1.8
+
+Ajustes gerais
