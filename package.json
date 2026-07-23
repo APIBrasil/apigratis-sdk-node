@@ -1,6 +1,6 @@
 {
 	"name": "apigratis-sdk-nodejs",
-	"version": "0.0.7",
+	"version": "0.1.7",
 	"description": "SDK oficial Node.js da plataforma APIBrasil — WhatsApp, SMS, consultas CPF/CNPJ, veículos, CEP, correios, pagamentos e mais",
 	"homepage": "https://apibrasil.io",
 	"author": "APIBrasil <contato@apibrasil.com.br> (https://apibrasil.io)",
