@@ -11,8 +11,8 @@ SDK oficial Node.js/TypeScript da plataforma [APIBrasil](https://apibrasil.com.b
 
 ## Canais de suporte (Comunidade)
 
-[![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366?logo=whatsapp)](https://whatsapp.com/channel/0029VaMiaT6B4hdX3hrUcz3X)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apigratisoficial)
+[![WhatsApp Channel](https://img.shields.io/badge/WhatsApp-Channel-25D366?logo=whatsapp)](https://whatsapp.com/channel/0029VaMiaT6B4hdX3hrUcz3X)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-32AFED?logo=telegram)](https://t.me/apibrasil1)
 
 ## Instalação
 
